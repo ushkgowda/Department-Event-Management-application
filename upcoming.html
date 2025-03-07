@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPARTMENT EVENTZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://bit-bangalore.edu.in/assets/images/general/logo.png" type="icon">
+</head>
+<body>
+    <header>
+        <h1>CS&E DEPARTMENT EVENTZ</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Event Gallery</a>
+            <a href="upcoming.html">Upcoming Events</a>
+            <a href="clubs.html">Clubs</a>
+            
+        </nav>
+    </header>
+    <body>
+        <div class="upcoming-container">
+            <img src="./UPCOMG.jpg" class="up">
+            <h1 class="upcoming-title">Upcoming Event</h1>
+            
+            <div class="upcoming-events">
+                <h2 class="upevent-title">AWS & DEVOPS Workshop</h2>
+                <p class="upevent-speaker">Speaker:IQAC and Cloud Institutions</p>
+                <p class="upevent-time">Date: July 11th to 13th,2024 <br> Time: 09:00 AM - 5:00 PM</p>
+                <p class="upevent-location">Location: ML lab-527B</p>
+                <button class="register-button" onclick="showRegistrationForm()">Register Now</button>
+            </div>
+            
+            <!-- Registration Form -->
+            <div class="registration-form" id="registration-form">
+                <h2>Registration Form</h2>
+                <form>
+                    <label for="usn">USN:</label>
+                    <input type="text" id="usn" name="usn" required><br><br>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                    <label for="semester">Semester:</label>
+                    <select id="semester" name="semester" required>
+                        <option value="">Select Semester</option>
+                        <option value="1">1st Semester</option>
+                        <option value="2">2nd Semester</option>
+                        <option value="3">3rd Semester</option>
+                        <option value="4">4th Semester</option>
+                        <option value="5">5th Semester</option>
+                        <option value="6">6th Semester</option>
+                        <option value="7">7th Semester</option>
+                        <option value="8">8th Semester</option>
+                    </select><br><br>
+                    <label for="section">Section:</label>
+                    <select id="section" name="section" required>
+                        <option value="">Select Section</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select><br><br>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

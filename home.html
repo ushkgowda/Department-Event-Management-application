@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Department - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+    margin: 0; 
+    padding: 0; 
+}
+
+header, main, footer {
+    width: 100vw; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+header nav {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+section {
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.hero {
+    background-image: url('https://bit-bangalore.edu.in/bit-library/assets/images/home/Lander-4.jpg');
+    background-size: 100vw 80vh; 
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100vw;
+    margin: 0; 
+    padding: 0; 
+}
+.hero h1 {
+            font-size: 64px; 
+            font-weight: bold; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        }
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    background-color:lightblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 40px); 
+    transition: all 0.3s ease-in-out; 
+}
+.feature:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+            transform: scale(1.05); 
+        }
+       .feature h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+       .feature p {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Event gallery</a>
+            <a href="upcoming.html">Upcoming Events</a>
+            <a href="clubs.html">Clubs</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to CSE Department EVENTZ</h1>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h2>State-of-the-Art Infrastructure</h2>
+                <p>Our department is equipped with modern facilities and cutting-edge technology to provide students with a comprehensive learning experience.</p>
+            </div>
+            <div class="feature">
+                <h2>Expert Faculty</h2>
+                <p>Our faculty members are highly qualified and experienced in their respective fields, providing students with guidance and mentorship.</p>
+            </div>
+            <div class="feature">
+                <h2>Research Opportunities</h2>
+                <p>We encourage students to engage in research projects and activities, fostering innovation and creativity.</p>
+            </div>
+            <div class="feature">
+                <h2>Industry Collaborations</h2>
+                <p>We have strong ties with industry partners, providing students with opportunities for internships, projects, and placements.</p>
+            </div>
+            <div class="feature">
+                <h2>Student Clubs and Activities</h2>
+                <p>We have a range of student clubs and organizations, catering to diverse interests and hobbies.</p>
+            </div>
+        </section>
+        <section id="hod-info">
+            <h2>Head of Department</h2>
+            <div class="profile">
+                <img src="https://bit-bangalore.edu.in/assets/images/departments/cse/hod.jpg" alt="HOD Photo">
+                <div class="profile-details">
+                    <h3>Dr. J Girija</h3>
+                    <p>Dr. J Girija,
+                    with a distinguished academic background encompassing B.E, M.Tech, and Ph.D. degrees, assumes the pivotal role of Head of the Department. Her leadership is grounded in extensive experience and a commitment to advancing engineering education and research excellence.</p>
+                </div>
+            </div>
+        </section>
+        <section id="faculty-info">
+            <h2>Event Co-ordinators</h2>
+            <h3>Workshop Co-ordinators</h3>
+            <div class="faculty">
+                <div class="profile">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/rvs-bit.appspot.com/o/cse%2FImages%2Fl37ayf3rsu3qfts0wh24-cse.jpg?alt=media&token=1be30839-1cfc-46b2-bede-603e6bc19248" alt="Faculty Photo 1">
+                    <div class="profile-details">
+                        <h3>Prof.Mahalakshmi CV</h3>
+                        <p>Assistant Professor with a B.E. and M.Tech.,she brings a wealth of experience that helps prepare students for successful career.</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/rvs-bit.appspot.com/o/cse%2FImages%2Fl37b9u1b018xmfly6xt5q27_CSE_NIKITHA%20K%20S.jpg?alt=media&token=156db5c8-1b83-476a-93cc-a159a7bff125" alt="Faculty Photo 2">
+                    <div class="profile-details">
+                        <h3>Prof.Nikitha K S</h3>
+                        <p>Assistant Professor with a B.E. and M. Tech., Her expertise and dedication equip students with essential skills for success in the tech industry.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="faculty-info">
+            <h3>Placement Activity Co-ordinator</h3>
+        <div class="profile">
+            <img src="https://firebasestorage.googleapis.com/v0/b/rvs-bit.appspot.com/o/cse%2FImages%2Fl37ai4qvl99ur8x5lf19_CSE_%20Prathima%20M%20G.jpg?alt=media&token=e62d8195-03b8-41a1-8423-d9771849021c" alt="Faculty Photo 3">
+            <div class="profile-details">
+            <h3>Prof. Prathima M G</h3>
+            <p> Assistant Professor with B.E. and M.E. degrees, specializes in Cloud Computing and Artificial Intelligence.</br> She has a keen interest in teaching C, C++, JAVA, Database Management Systems, Artificial Intelligence, Data Structures, and Computer Organization.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 CSE Department. All rights reserved.
+    </footer>
+</body>
+</html>
