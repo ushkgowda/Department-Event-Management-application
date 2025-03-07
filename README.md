@@ -18,7 +18,6 @@ Tech Stack
 - Backend:  Express.js
 - Database: MongoDB
 -Authentication: JWT-based authentication for secure user access
-- Deployment: Hosted on AWS/Heroku for scalability and performance
 
 Installation
 1. Clone the repository:
